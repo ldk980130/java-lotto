@@ -11,7 +11,7 @@ import static constant.LottoConstant.*;
 public class LottoNumber implements Comparable<LottoNumber> {
 
     private final int number;
-    private static final Map<Integer, LottoNumber> lottoNumbers = new HashMap<>();;
+    private static final Map<Integer, LottoNumber> lottoNumbers = new HashMap<>();
 
     static {
         for (int number = MINIMUM_LOTTO_NUMBER; number <= MAXIMUM_LOTTO_NUMBER; number++) {
